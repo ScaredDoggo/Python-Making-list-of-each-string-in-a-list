@@ -1,6 +1,4 @@
-classNames = ['class1', 'class2', 'class3']
+listNames = ['list1', 'list2', 'list3']
 
-z = 0
-while z<len(classNames):
-    classNames[z] = []
-    z += 1
+for i in range(len(listNames)):
+    listNames[i] = []
